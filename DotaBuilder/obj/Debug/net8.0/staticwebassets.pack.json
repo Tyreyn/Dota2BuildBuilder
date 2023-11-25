@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotaBuilder.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DotaBuilder.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotaBuilder.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DotaBuilder.props",
+      "PackagePath": "build\\DotaBuilder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DotaBuilder.props",
+      "PackagePath": "buildMultiTargeting\\DotaBuilder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DotaBuilder.props",
+      "PackagePath": "buildTransitive\\DotaBuilder.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
