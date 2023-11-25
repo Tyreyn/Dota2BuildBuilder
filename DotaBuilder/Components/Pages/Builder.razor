@@ -1,0 +1,49 @@
+﻿@page "/builder"
+@attribute [StreamRendering]
+
+@using DataLibrary
+@using DotaBuilder.Models
+@inject IDataAccess _data
+@inject IConfiguration _config
+
+<PageTitle>Weather</PageTitle>
+
+<h3>Builder</h3>
+
+@if (items == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item ID</th>
+                <th>Item NAME</th>
+                <th>Item DESCRIPTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in items)
+            {
+                <tr>
+                    <td>@item.item_id</td>
+                    <td>@item.item_name</td>
+                    <td>@item.item_description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<ItemModel> items;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string sql = "SELECT * FROM items";
+
+        items = await _data.LoadDataAsync<ItemModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+    }
+}
