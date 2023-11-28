@@ -1,5 +1,6 @@
 using DataLibrary;
 using DotaBuilder.Components;
+using DotaBuilder.Components.Layout;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddSingleton<IDataAccess, DataAccess>();
-
+builder.Services.AddRazorComponents();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

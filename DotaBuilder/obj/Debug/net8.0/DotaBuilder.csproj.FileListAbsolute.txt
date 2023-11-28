@@ -19,7 +19,6 @@ C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\staticwebassets\
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotaBuilder.props
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\scopedcss\bundle\DotaBuilder.styles.css
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\scopedcss\projectbundle\DotaBuilder.bundle.scp.css
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\DotaBuilder.dll
@@ -55,3 +54,5 @@ C:\Users\athos\source\repos\SqlTut\DotaBuilder\bin\Debug\net8.0\DataLibrary.dll
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\bin\Debug\net8.0\DataLibrary.pdb
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\DotaBuilder.csproj.AssemblyReference.cache
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\DotaBuilder.csproj.CopyComplete
+C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\DotaBuilder.sourcelink.json
+C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\scopedcss\Components\Layout\AutoHideSidebar.razor.rz.scp.css
