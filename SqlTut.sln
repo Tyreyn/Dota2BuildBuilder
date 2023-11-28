@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotaBuilder", "DotaBuilder\DotaBuilder.csproj", "{B6D158FF-FE84-414D-8CD7-1ED691DA778E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotaBuilder", "DotaBuilder\DotaBuilder.csproj", "{B6D158FF-FE84-414D-8CD7-1ED691DA778E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{8ADC91D3-C450-423C-857E-10D8C82CF23C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{8ADC91D3-C450-423C-857E-10D8C82CF23C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
