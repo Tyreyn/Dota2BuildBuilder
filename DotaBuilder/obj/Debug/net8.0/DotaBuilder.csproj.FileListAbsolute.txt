@@ -56,3 +56,4 @@ C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\DotaBuilder.cspr
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\DotaBuilder.csproj.CopyComplete
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\DotaBuilder.sourcelink.json
 C:\Users\athos\source\repos\SqlTut\DotaBuilder\obj\Debug\net8.0\scopedcss\Components\Layout\AutoHideSidebar.razor.rz.scp.css
+C:\Users\athos\source\repos\SqlTut\DotaBuilder\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll

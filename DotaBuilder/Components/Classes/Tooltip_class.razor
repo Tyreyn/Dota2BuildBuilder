@@ -1,0 +1,64 @@
+﻿<div class="tooltip-container" @onmouseover="ShowToolTip" @onmouseout="HideToolTip">
+    <div class="tooltip-content">
+        @ChildContent
+    </div>
+    <div class="tooltip-text" style="display:@(_isToolTipVisible ? "block" : "none");">@Tip</div>
+</div>
+
+<style>
+    .tooltip-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tooltip-content {
+        cursor: pointer;
+    }
+
+    .tooltip-text {
+        visibility: hidden;
+        position: absolute;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+        border-radius: 4px;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+    }
+
+    .tooltip-container:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+    }
+</style>
+
+@code {
+    [Parameter] public string Tip { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+    private bool _isToolTipVisible = false;
+    private bool _isMouseOver = false;
+    private const int ToolTipDelay = 500;
+
+    private async Task ShowToolTip(MouseEventArgs e)
+    {
+        _isMouseOver = true;
+        await Task.Delay(ToolTipDelay);
+
+        if (_isMouseOver)
+        {
+            _isToolTipVisible = true;
+            StateHasChanged();
+        }
+    }
+
+    private void HideToolTip(MouseEventArgs e)
+    {
+        _isMouseOver = false;
+        _isToolTipVisible = false;
+    }
+}

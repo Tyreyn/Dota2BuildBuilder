@@ -1,10 +1,12 @@
+@import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css';
+
 /* _content/DotaBuilder/Components/Layout/AutoHideSidebar.razor.rz.scp.css */
 .auto-hiding-nav-menu[b-ozbg0ap924] {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    transition: max-width 0.3s ease;
+    transition: max-width 5.3s ease;
     background-color: #253529;
     color: #fff;
     padding: 1rem;
@@ -18,7 +20,7 @@
 }
 
 .collapsed[b-ozbg0ap924] {
-    width: 25px;
+    width: 55px;
 }
 
 .expand[b-ozbg0ap924] {

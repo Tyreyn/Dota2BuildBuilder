@@ -1,8 +1,12 @@
 ﻿@page "/builder"
 @attribute [StreamRendering]
+@rendermode InteractiveServer
 
+@using Microsoft.AspNetCore.Components.QuickGrid
 @using DataLibrary
 @using DotaBuilder.Models
+@using System.Net
+@using DotaBuilder.Components.Classes
 @inject IDataAccess _data
 @inject IConfiguration _config
 
@@ -16,34 +20,97 @@
 }
 else
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Item ID</th>
-                <th>Item NAME</th>
-                <th>Item DESCRIPTION</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in items)
-            {
-                <tr>
-                    <td>@item.item_id</td>
-                    <td>@item.item_name</td>
-                    <td>@item.item_description</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <body>
+        <table class="styled-table">
+            <td>
+                <table class="sub-table">
+                    <tr>
+                        <td>Consumables</td>
+                    </tr>
+                    <tr>
+                        @foreach (var item in items)
+                        {
+                        <tr>
+                            <Item_button_class ButtonText="@item.item_name"
+                                               ButtonClass="btn"
+                                               ButtonDescription="@item.item_description"
+                                               BackgroundPath="@item.item_image_path"
+                                               CssClass="item-button"
+                                               OnClick="@ImageClick"
+                                               OnHover="@ImageHover" />
+                        </tr>
+                        }
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="sub-table">
+                    <tr>
+                        <td>Attributes</td>
+                    </tr>
+                    <tr>
+                        @foreach (var item in items)
+                        {
+                        <tr>
+                            <Item_button_class ButtonText="@item.item_name"
+                                               ButtonClass="btn"
+                                               BackgroundPath="@item.item_image_path"
+                                               CssClass="item-button"
+                                               OnClick="@ImageClick"
+                                               OnHover="@ImageHover" />
+                        </tr>
+                        }
+                    </tr>
+                </table>
+            </td>
+        </table>
+    </body>
 }
 
-@code {
-    List<ItemModel> items;
+<style>
+    .main-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
 
+    .sub-table{
+
+    }
+
+    table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        table-layout: auto;
+    }
+
+    td {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+</style>
+
+@code {
+
+    List<ItemModel> items;
     protected override async Task OnInitializedAsync()
     {
         string sql = "SELECT * FROM items";
 
         items = await _data.LoadDataAsync<ItemModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+    }
+
+    private void ImageClick()
+    {
+        Console.WriteLine("kliknięto");
+    }
+
+    private void ImageHover()
+    {
+        Console.WriteLine("pojawiam się i znikam");
     }
 }

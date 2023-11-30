@@ -21,6 +21,82 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aghanim_Shard_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aghanim_Shard_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blood_Grenade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blood_Grenade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bottle_29_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bottle_29_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Clarity_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Clarity_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dust_of_Appearance_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dust_of_Appearance_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Enchanted_Mango_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Enchanted_Mango_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Faerie_Fire_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Faerie_Fire_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Healing_Salve_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Healing_Salve_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Iron_Branch_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Iron_Branch_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Magic_Stick_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Magic_Stick_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Magic_Wand_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Magic_Wand_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Magic_Wand_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Magic_Wand_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Observer_Ward_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Observer_Ward_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Sentry_Ward_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Sentry_Ward_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Shop_Consumables_Icon.webp",
+      "PackagePath": "staticwebassets\\images\\Shop_Consumables_Icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Smoke_of_Deceit_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Smoke_of_Deceit_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Tango_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Tango_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Town_Portal_Scroll_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Town_Portal_Scroll_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Unknown_Item_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Unknown_Item_icon.webp"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotaBuilder.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

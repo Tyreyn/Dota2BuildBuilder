@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Classes/Item_button_class.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDbGFzc2VzXEl0ZW1fYnV0dG9uX2NsYXNzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Classes/Tooltip_class.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDbGFzc2VzXFRvb2x0aXBfY2xhc3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Pages/Builder.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCdWlsZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
