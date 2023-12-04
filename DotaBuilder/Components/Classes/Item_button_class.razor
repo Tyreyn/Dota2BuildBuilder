@@ -1,9 +1,9 @@
 ﻿<Tooltip_class Tip="@GetToolTip(ButtonDescription)">
-    <button
-        class="@ButtonClass @CssClass"
-        style="background-image:url(@GetImage(BackgroundPath));"
-        @onclick="OnClick"
-        @onmouseover="OnHover">
+    <button class="@ButtonClass @CssClass"
+            style="background-image:url(@GetImage(BackgroundPath));"
+            id="@ButtonId"
+            @onclick="@(() => OnClickEvent.InvokeAsync(eventCallbackItemsArgs))"
+            @onmouseover="@(() => OnHoverEvent.InvokeAsync(eventCallbackItemsArgs))">
     </button>
 </Tooltip_class>
 
@@ -25,6 +25,13 @@
 </style>
 
 @code {
+    public class EventCallbackItemArgs
+    {
+        public string Name { get; set; }
+    }
+
+    [Parameter] public string ButtonId { get; set; }
+
     [Parameter] public string ButtonText { get; set; }
 
     [Parameter] public string ButtonClass { get; set; }
@@ -35,11 +42,13 @@
 
     [Parameter] public string CssClass { get; set; }
 
-    [Parameter] public EventCallback OnClick { get; set; }
+    [Parameter] public EventCallback<EventCallbackItemArgs> OnClickEvent { get; set; }
 
-    [Parameter] public EventCallback OnHover { get; set; }
+    [Parameter] public EventCallback<EventCallbackItemArgs> OnHoverEvent { get; set; }
 
     private bool FirstLoad { get; set; } = true;
+
+    private EventCallbackItemArgs eventCallbackItemsArgs = new EventCallbackItemArgs();
 
     private string GetImage(string imagePath)
     {
@@ -62,7 +71,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        FirstLoad = false;
+        eventCallbackItemsArgs.Name = ButtonId;
     }
 
 }
