@@ -1,12 +1,11 @@
 ﻿@rendermode InteractiveServer
-
 ﻿
 <div class="auto-hiding-nav-menu "
       @onmouseover="ExpandNavMenu"
       @onmouseout="CollapseNavMenu">
     <nav class="nav-menu @(collapseNavMenu ? "collapsed" : "expand")">
         <div>
-            <NavLink class="nav-link" href="builder" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="Builder" Match="NavLinkMatch.All">
                 <span class="bi bi-house nav-item-icon" aria-hidden="true">
                     <span class="nav-item-text">Builder</span>
                 </span>
