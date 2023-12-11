@@ -1,0 +1,65 @@
+﻿@using DotaBuilder.Components.Data.Classes
+@inject ItemClass ItemClass
+
+@rendermode InteractiveServer
+
+<h3>InventoryItems</h3>
+
+<body>
+    <DropTarget T="ItemClass" Drop="@OnDrop">
+        <table class="item-table">
+            @for (int rows = 0; rows < rowsCount; rows++)
+            {
+                <tr class="@(rows == rowsCount - 1 ? "tr1" : "tr2")">
+                    @for (int columns = 0; columns < columnsCount; columns++)
+                    {
+                        <td class="td1">
+
+                            @if (itemList[rows, columns] != null)
+                            {
+                                <Item itemClass="@itemList[rows, columns]" />
+                            }
+                        </td>
+
+                    }
+                </tr>
+            }
+        </table>
+    </DropTarget>
+
+</body>
+
+<style>
+    .item-table {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+        .item-table .tr1 {
+            background-color: #8E8E8E;
+        }
+
+        .item-table .tr2 {
+            background-color: #595959;
+        }
+
+    .td1 {
+        height: 44px;
+        width: 60px;
+    }
+</style>
+
+@code {
+    private const int rowsCount = 3, columnsCount = 3;
+
+    private ItemClass[,] itemList = new ItemClass[3, 3];
+
+    private void OnDrop(ItemClass item)
+    {
+        Console.WriteLine("[DROP] Drop {0} in X:{1} Y:{2}", item.ItemName, 0, 1);
+        itemList[2, 1] = item;
+        StateHasChanged();
+    }
+}

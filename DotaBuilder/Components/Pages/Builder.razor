@@ -2,24 +2,48 @@
 @attribute [StreamRendering]
 @rendermode InteractiveServer
 
+@using DotaBuilder.Components.Elements
 @using Microsoft.AspNetCore.Components.QuickGrid
 @using DataLibrary
 @using DotaBuilder.Models
 @using System.Net
-@using DotaBuilder.Components.Classes
+@using DotaBuilder.Components.Data.Classes
 
 <PageTitle>Builder</PageTitle>
 
 <h3>Builder</h3>
 
 <tbody>
-    <table class="table">
+    <table class="main-table">
         <tr>
             <td style="width:fit-content"><AvailableItems></AvailableItems></td>
-            <td>STATISTICS TBD</td>
+            <td style="width:25%">STATISTICS TBD</td>
         </tr>
-        <tr>
-            <td>INVENTORY TBD</td>
+        <tr ALIGN="center">
+            <td style="vertical-align: middle;"><InventoryItems></InventoryItems></td>
         </tr>
     </table>
 </tbody>
+
+<style>
+    .main-table {
+        position: absolute;
+        top: 15%;
+        bottom: 0;
+        left: 10%;
+        right: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .table {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .td
+    {
+
+    }
+</style>

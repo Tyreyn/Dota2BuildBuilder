@@ -1,0 +1,102 @@
+﻿@using DataLibrary
+@using DotaBuilder.Components.Data
+@using DotaBuilder.Components.Data.Classes
+@using DotaBuilder.Models
+@inject IDataAccess _data
+@inject IConfiguration _config
+
+@if (items == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <body>
+        <table class="styled-table" style="overflow-x:auto;">
+            <td>
+                <table class="sub-table">
+                    <tr>
+                        <td>Consumables</td>
+                    </tr>
+                    <tr>
+                        @foreach (ItemClass item in items)
+                        {
+                        <tr>
+                            <Item itemClass="item"/>
+                        </tr>
+                        }
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="sub-table">
+                    <tr>
+                        <td>Attributes</td>
+                    </tr>
+                    <tr>
+                        @foreach (ItemClass item in items)
+                        {
+                        <tr>
+                            <Item itemClass="item" />
+                        </tr>
+                        }
+                    </tr>
+                </table>
+            </td>
+        </table>
+    </body>
+}
+
+<style>
+    .sub-table {
+    }
+
+    table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        table-layout: auto;
+    }
+
+    td {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+</style>
+
+@code {
+
+    public List<ItemClass> items = new List<ItemClass>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        string sql = "SELECT * FROM items";
+
+        List<ItemModel> itemsModel = await _data.LoadDataAsync<ItemModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+
+        foreach (ItemModel item in itemsModel)
+        {
+            var tmp = new ItemClass
+                {
+                    ItemID = item.item_id,
+                    ItemBackgroundPath = item.item_image_path,
+                    ItemButtonClass = "btn",
+                    ItemCssClass = "item-button",
+                    ItemDescription = item.item_description,
+                    ItemName = item.item_name
+                };
+            items.Add(tmp);
+        }
+    }
+
+    private void OnClick(EventCallbackItemArgs args)
+    {
+        Console.WriteLine("[Click] Button ID: {0}", args.Name);
+    }
+
+    private void OnHover(EventCallbackItemArgs args)
+    {
+        Console.WriteLine("[Hover] Button ID: {0}", args.Name);
+    }
+}
+

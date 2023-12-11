@@ -22,16 +22,32 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Classes/AvailableItems.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDbGFzc2VzXEF2YWlsYWJsZUl0ZW1zLnJhem9y
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Elements/AvailableItems.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbGVtZW50c1xBdmFpbGFibGVJdGVtcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Classes/Item_button_class.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDbGFzc2VzXEl0ZW1fYnV0dG9uX2NsYXNzLnJhem9y
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Elements/Draggable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbGVtZW50c1xEcmFnZ2FibGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Classes/Tooltip_class.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDbGFzc2VzXFRvb2x0aXBfY2xhc3MucmF6b3I=
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Elements/DropTarget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbGVtZW50c1xEcm9wVGFyZ2V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Elements/InventoryItems.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbGVtZW50c1xJbnZlbnRvcnlJdGVtcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Elements/Item.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbGVtZW50c1xJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Elements/StatisticsItems.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbGVtZW50c1xTdGF0aXN0aWNzSXRlbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Elements/Tooltip_class.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFbGVtZW50c1xUb29sdGlwX2NsYXNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/athos/source/repos/SqlTut/DotaBuilder/Components/Pages/Builder.razor]
