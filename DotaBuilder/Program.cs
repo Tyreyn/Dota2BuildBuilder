@@ -1,5 +1,7 @@
 using DataLibrary;
 using DotaBuilder.Components;
+using DotaBuilder.Components.Data;
+using DotaBuilder.Components.Data.Classes;
 using DotaBuilder.Components.Layout;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddSingleton<IDataAccess, DataAccess>();
+builder.Services.AddSingleton<DragAndDropService>();
+builder.Services.AddSingleton<ItemClass>();
 builder.Services.AddRazorComponents();
 var app = builder.Build();
 

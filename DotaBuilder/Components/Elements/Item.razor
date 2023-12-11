@@ -1,0 +1,52 @@
+﻿@using DotaBuilder.Components.Data
+@using DotaBuilder.Components.Data.Classes
+@inject ItemClass ItemClass
+
+<Tooltip_class Tip="@itemClass.GetToolTip(itemClass.ItemDescription)">
+    <Draggable Data="itemClass">
+        <button class="@itemClass.ItemID @itemClass.ItemCssClass"
+                style="background-image:url(@itemClass.GetImage(itemClass.ItemBackgroundPath));"
+                id="@itemClass.ItemID"
+                @onclick="@(() => itemClass.OnClickEvent.InvokeAsync(itemClass.eventCallbackItemsArgs))"
+                @onmouseover="@(() => itemClass.OnHoverEvent.InvokeAsync(itemClass.eventCallbackItemsArgs))">
+        </button>
+    </Draggable>
+</Tooltip_class>
+
+<style>
+    .item-button {
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        object-fit: fill;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 44px;
+        width: 60px;
+    }
+
+        .item-button:hover {
+            background-color: #black;
+        }
+</style>
+
+@code {
+
+    [Parameter]
+    public ItemClass itemClass { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        itemClass.eventCallbackItemsArgs.Name = itemClass.ItemName;
+    }
+
+    public void OnClick(EventCallbackItemArgs args)
+    {
+        Console.WriteLine("[Click] Button ID: {0}", args.Name);
+    }
+
+    public void OnHover(EventCallbackItemArgs args)
+    {
+        Console.WriteLine("[Hover] Button ID: {0}", args.Name);
+    }
+}
