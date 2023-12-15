@@ -22,7 +22,7 @@ else
                         @foreach (ItemClass item in items)
                         {
                         <tr>
-                            <Item itemClass="item"/>
+                            <Item itemClass="item" OnClickEvent="OnClick" OnHoverEvent="OnHover"/>
                         </tr>
                         }
                     </tr>
@@ -37,7 +37,7 @@ else
                         @foreach (ItemClass item in items)
                         {
                         <tr>
-                            <Item itemClass="item" />
+                            <Item itemClass="item" OnClickEvent="OnClick" OnHoverEvent="OnHover" />
                         </tr>
                         }
                     </tr>
@@ -68,35 +68,26 @@ else
 
     public List<ItemClass> items = new List<ItemClass>();
 
+    public ItemLoader itemLoader;
+
     protected override async Task OnInitializedAsync()
     {
-        string sql = "SELECT * FROM items";
-
-        List<ItemModel> itemsModel = await _data.LoadDataAsync<ItemModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
-
-        foreach (ItemModel item in itemsModel)
+        if(itemLoader == null)
         {
-            var tmp = new ItemClass
-                {
-                    ItemID = item.item_id,
-                    ItemBackgroundPath = item.item_image_path,
-                    ItemButtonClass = "btn",
-                    ItemCssClass = "item-button",
-                    ItemDescription = item.item_description,
-                    ItemName = item.item_name
-                };
-            items.Add(tmp);
+            itemLoader = new ItemLoader(_data, _config);
+            await itemLoader.LoadDataAsync();
+            items = itemLoader.items;
         }
     }
 
-    private void OnClick(EventCallbackItemArgs args)
+    public void OnClick(EventCallbackItemArgs args)
     {
-        Console.WriteLine("[Click] Button ID: {0}", args.Name);
+        Console.WriteLine("[Click][AvailableItems] Button ID: {0}", args.Name);
     }
 
-    private void OnHover(EventCallbackItemArgs args)
+    public void OnHover(EventCallbackItemArgs args)
     {
-        Console.WriteLine("[Hover] Button ID: {0}", args.Name);
+        Console.WriteLine("[Hover][AvailableItems] Button ID: {0}", args.Name);
     }
 }
 

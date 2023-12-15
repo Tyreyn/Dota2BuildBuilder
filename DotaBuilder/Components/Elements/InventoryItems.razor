@@ -1,34 +1,36 @@
 ﻿@using DotaBuilder.Components.Data.Classes
+@using DotaBuilder.Components.Data
 @inject ItemClass ItemClass
 
 @rendermode InteractiveServer
 
 <h3>InventoryItems</h3>
 
-<body>
-    <DropTarget T="ItemClass" Drop="@OnDrop">
-        <table class="item-table">
-            @for (int rows = 0; rows < rowsCount; rows++)
-            {
-                <tr class="@(rows == rowsCount - 1 ? "tr1" : "tr2")">
-                    @for (int columns = 0; columns < columnsCount; columns++)
-                    {
-                        <td class="td1">
+@if (itemList != null)
+{
+    <body>
+        <DropTarget T="ItemClass" Drop="@OnDrop">
+            <table class="item-table"  @onkeypress="@(e => KeyPress(e))">
+                @for (int rows = 0; rows < rowsCount; rows++)
+                {
+                    <tr class="@(rows == rowsCount - 1 ? "tr1" : "tr2")">
+                        @for (int columns = 0; columns < columnsCount; columns++)
+                        {
+                            int tmpX = rows;
+                            int tmpY = columns;
+                            <td class="td1" @ondragover="@(e => OnHoverCell(tmpX,tmpY))" @onmouseout="OnMouseOver">
+                                <Item itemClass="@itemList[rows, columns]"
+                                      OnClickEvent="OnClick"
+                                      OnHoverEvent="OnHover" />
+                            </td>
 
-                            @if (itemList[rows, columns] != null)
-                            {
-                                <Item itemClass="@itemList[rows, columns]" />
-                            }
-                        </td>
-
-                    }
-                </tr>
-            }
-        </table>
-    </DropTarget>
-
-</body>
-
+                        }
+                    </tr>
+                }
+            </table>
+        </DropTarget>
+    </body>
+}
 <style>
     .item-table {
         border-collapse: collapse;
@@ -38,11 +40,13 @@
     }
 
         .item-table .tr1 {
-            background-color: #8E8E8E;
+            height: 44px;
+            width: 60px;
         }
 
         .item-table .tr2 {
-            background-color: #595959;
+            height: 44px * 0,9px;
+            width: 60px * 0,9px;
         }
 
     .td1 {
@@ -54,12 +58,86 @@
 @code {
     private const int rowsCount = 3, columnsCount = 3;
 
+    private int targetRow = 0, targetColumn = 0;
+
     private ItemClass[,] itemList = new ItemClass[3, 3];
+
+    private bool ableToDrop = false;
+
+    public ItemClass emptyItem = new ItemClass
+        {
+            ItemID = 256,
+            ItemBackgroundPath = "./images/Unknown_Item_icon.webp",
+            ItemButtonClass = "btn",
+            ItemCssClass = "item-button",
+            ItemDescription = "Empty item",
+            ItemName = "Empty item"
+        };
+
+
+    protected override void OnInitialized()
+    {
+        FillInventoryWithEmptyItems();
+    }
+
+    private void FillInventoryWithEmptyItems()
+    {
+        for (int rows = 0; rows < rowsCount; rows++)
+        {
+            for (int columns = 0; columns < columnsCount; columns++)
+            {
+                itemList[rows, columns] = emptyItem;
+            }
+        }
+    }
 
     private void OnDrop(ItemClass item)
     {
-        Console.WriteLine("[DROP] Drop {0} in X:{1} Y:{2}", item.ItemName, 0, 1);
-        itemList[2, 1] = item;
+        Console.WriteLine("[DROP][InventoryItems] Drop {0} in X:{1} Y:{2}", item.ItemName, targetRow, targetColumn);
+        itemList[targetRow, targetColumn] = item;
         StateHasChanged();
     }
+
+    public void OnHoverCell(int rows, int columns)
+    {
+        targetRow = rows;
+        targetColumn = columns;
+        Console.WriteLine("[DROP][InventoryItems] Dropping to X:{0} Y:{1}", rows, columns);
+    }
+
+    public void OnClick(EventCallbackItemArgs args)
+    {
+        if (args != null)
+        {
+            Console.WriteLine("[Click][InventoryItems] Button ID: {0}", args.Name == null ? "Empty" : args.Name);
+        }
+        else
+        {
+            Console.WriteLine("[Click][InventoryItems] nie zainicjalizowany EventCallbackItemArgs");
+        }
+    }
+
+    public void OnHover(EventCallbackItemArgs args)
+    {
+        if (args != null)
+        {
+            Console.WriteLine("[Hover][InventoryItems] Button ID: {0}", args.Name);
+        }
+    }
+
+    private void KeyPress(KeyboardEventArgs e)
+    {
+        if (e.Code == "Space")
+        {
+            Console.WriteLine("[DROP][Deleting][InventoryItems] Deleting X:{0} Y:{1}", targetRow, targetColumn);
+            itemList[targetRow, targetColumn] = emptyItem;
+        }
+    }
+
+    private void OnMouseOver()
+    {
+        targetColumn = 0;
+        targetRow = 0;
+    }
+
 }
