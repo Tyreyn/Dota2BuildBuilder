@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using DotaBuilder.Models;
+using Microsoft.AspNetCore.Components;
+using System.Xml.Linq;
 
 namespace DotaBuilder.Components.Data.Classes
 {
@@ -16,25 +18,10 @@ namespace DotaBuilder.Components.Data.Classes
 
         public string ItemCssClass { get; set; }
 
-        public EventCallback<EventCallbackItemArgs> OnClickEvent { get; set; }
+        public List<AttributesModel> Attributes { get; set; }
 
-        public EventCallback<EventCallbackItemArgs> OnHoverEvent { get; set; }
 
-        public EventCallbackItemArgs eventCallbackItemsArgs = new EventCallbackItemArgs();
-
-        public string GetImage(string imagePath)
-        {
-            //Console.WriteLine("[Loading] Image path: ./{0}", imagePath);
-
-            if (File.Exists(Path.Combine(System.IO.Directory.GetCurrentDirectory(), "wwwroot", imagePath)))
-            {
-                return "./" + imagePath;
-            }
-            else
-            {
-                return "./images/Unknown_Item_icon.webp";
-            }
-        }
+        public EventCallbackItemArgs eventCallbackItemsArgs;
 
         public string GetToolTip(string tooltipItemName)
         {

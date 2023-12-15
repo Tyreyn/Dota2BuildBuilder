@@ -1,7 +1,10 @@
-﻿namespace DotaBuilder.Components.Data
+﻿using Microsoft.AspNetCore.Components.Web;
+
+namespace DotaBuilder.Components.Data
 {
-    public class EventCallbackItemArgs
+    public class EventCallbackItemArgs : MouseEventArgs
     {
         public string Name { get; set; }
+
     }
 }
