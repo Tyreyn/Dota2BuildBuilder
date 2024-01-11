@@ -1,6 +1,11 @@
 ﻿@using DotaBuilder.Components.Data.Classes
 @using DotaBuilder.Components.Data
+@using DataLibrary
 @inject ItemClass ItemClass
+@inject ItemHandler ItemHandler
+@inject IDataAccess _data
+@inject IConfiguration _config
+@implements IDisposable
 
 @rendermode InteractiveServer
 
@@ -11,10 +16,10 @@
     <body>
         <DropTarget T="ItemClass" Drop="@OnDrop">
             <table class="item-table"  @onkeypress="@(e => KeyPress(e))">
-                @for (int rows = 0; rows < rowsCount; rows++)
+                @for (int rows = 0; rows < GlobalVariables.InventoryRowsCount; rows++)
                 {
-                    <tr class="@(rows == rowsCount - 1 ? "tr1" : "tr2")">
-                        @for (int columns = 0; columns < columnsCount; columns++)
+                    <tr class="@(rows == GlobalVariables.InventoryRowsCount - 1 ? "tr1" : "tr2")">
+                        @for (int columns = 0; columns < GlobalVariables.InventoryColumnsCount; columns++)
                         {
                             int tmpX = rows;
                             int tmpY = columns;
@@ -56,35 +61,41 @@
 </style>
 
 @code {
-    private const int rowsCount = 3, columnsCount = 3;
 
     private int targetRow = 0, targetColumn = 0;
 
-    private ItemClass[,] itemList = new ItemClass[3, 3];
+    [Parameter]
+    public GlobalVariables GlobalVariables { get; set; }
+
+    private ItemClass[,] itemList = new ItemClass[
+        GlobalVariables.InventoryRowsCount,
+        GlobalVariables.InventoryColumnsCount];
+
+    private ItemClass emptyItem;
+
+    private ItemCombiner itemCombiner;
 
     private bool ableToDrop = false;
 
-    public ItemClass emptyItem = new ItemClass
-        {
-            ItemID = 256,
-            ItemBackgroundPath = "./images/Unknown_Item_icon.webp",
-            ItemButtonClass = "btn",
-            ItemCssClass = "item-button",
-            ItemDescription = "Empty item",
-            ItemName = "Empty item"
-        };
-
-
     protected override void OnInitialized()
     {
+        emptyItem = GlobalVariables.GetEmptyItemClass();
+        itemCombiner = new ItemCombiner(_data, _config, GlobalVariables);
+        itemCombiner.Initialize();
         FillInventoryWithEmptyItems();
+        ItemHandler.OnStateChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        ItemHandler.OnStateChange -= StateHasChanged;
     }
 
     private void FillInventoryWithEmptyItems()
     {
-        for (int rows = 0; rows < rowsCount; rows++)
+        for (int rows = 0; rows < GlobalVariables.InventoryRowsCount; rows++)
         {
-            for (int columns = 0; columns < columnsCount; columns++)
+            for (int columns = 0; columns < GlobalVariables.InventoryColumnsCount; columns++)
             {
                 itemList[rows, columns] = emptyItem;
             }
@@ -94,7 +105,7 @@
     private void OnDrop(ItemClass item)
     {
         Console.WriteLine("[DROP][InventoryItems] Drop {0} in X:{1} Y:{2}", item.ItemName, targetRow, targetColumn);
-        itemList[targetRow, targetColumn] = item;
+        AddItem(targetRow, targetColumn, item);
         StateHasChanged();
     }
 
@@ -130,7 +141,7 @@
         if (e.Code == "Space")
         {
             Console.WriteLine("[DROP][Deleting][InventoryItems] Deleting X:{0} Y:{1}", targetRow, targetColumn);
-            itemList[targetRow, targetColumn] = emptyItem;
+            DeleteItem(targetRow, targetColumn);
         }
     }
 
@@ -138,6 +149,26 @@
     {
         targetColumn = 0;
         targetRow = 0;
+    }
+
+    private async void DeleteItem(int row, int column)
+    {
+        itemList[row, column] = emptyItem;
+        await InvokeAsync(() =>
+        {
+            ItemHandler.UpdateItemsInInventory(itemList);
+        });
+    }
+
+    private async void AddItem(int row, int column, ItemClass item)
+    {
+        itemList[row, column] = item;
+        await InvokeAsync(() =>
+        {
+            ItemHandler.UpdateItemsInInventory(itemList);
+        });
+
+        itemCombiner.CheckForCombinations(itemList);
     }
 
 }

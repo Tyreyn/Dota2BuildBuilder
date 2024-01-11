@@ -13,6 +13,7 @@ builder.Services.AddRazorComponents()
 builder.Services.AddSingleton<IDataAccess, DataAccess>();
 builder.Services.AddSingleton<DragAndDropService>();
 builder.Services.AddSingleton<ItemClass>();
+builder.Services.AddSingleton<ItemHandler>();
 builder.Services.AddRazorComponents();
 var app = builder.Build();
 
@@ -25,7 +26,6 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 app.UseAntiforgery();
 

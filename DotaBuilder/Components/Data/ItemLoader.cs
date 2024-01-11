@@ -1,6 +1,5 @@
 ﻿using DotaBuilder.Components.Data.Classes;
-using DotaBuilder.Components.Data;
-using DotaBuilder.Components.Elements;
+using DotaBuilder.Components.Data.Enums;
 using DataLibrary;
 using DotaBuilder.Models;
 
@@ -8,7 +7,9 @@ namespace DotaBuilder.Components.Data
 {
     public class ItemLoader(IDataAccess dataAccess, IConfiguration configuration)
     {
-        public List<ItemClass> items = new List<ItemClass>();
+        private List<ItemClass> items = new List<ItemClass>();
+
+        private Dictionary<int, AttributesModel> attributeDictionary;
 
         public async Task<List<ItemClass>> LoadDataAsync()
         {
@@ -27,10 +28,11 @@ namespace DotaBuilder.Components.Data
                     ItemDescription = item.item_description,
                     ItemName = item.item_name
                 };
+
                 tmp.eventCallbackItemsArgs = new EventCallbackItemArgs { Name = tmp.ItemName };
+                tmp.Attributes = await GetAttributes(tmp);
                 items.Add(tmp);
             }
-
             return items;
         }
 
@@ -48,10 +50,27 @@ namespace DotaBuilder.Components.Data
             }
         }
 
-        private List<AttributesModel> GetAttributes()
+        private async Task<List<AttributesModel>> GetAttributes(ItemClass item)
         {
             List<AttributesModel> attributes = new List<AttributesModel>();
+            foreach (string attribute in Enum.GetNames(typeof(AttributeName)))
+            {
+                Console.WriteLine("[Loading] Attribute: {0} for item: {1}", attribute, item.ItemName);
+                string sql = string.Format("SELECT * FROM dota_items.items as items " +
+                    "JOIN dota_attributes.attributes as attributes ON attributes.attribut_id = items.item_id " +
+                    "JOIN dota_attributes.{0} as {0} ON {0}.attribut_id = items.item_id " +
+                    "WHERE items.item_id = {1}; ", attribute, item.ItemID);
+
+                List<AttributesModel> tmp = await dataAccess.LoadDataAsync<AttributesModel, dynamic>(sql, new { }, configuration.GetConnectionString("default"));
+                if (tmp.Count >= 1)
+                {
+                    attributes.Add(tmp[0]);
+                    Console.WriteLine("[Loading] Attribute: {0} for item: {1} = {2}", attribute, item.ItemName, tmp[0].attribut_count);
+                }
+            }
+
             return attributes;
         }
+
     }
 }

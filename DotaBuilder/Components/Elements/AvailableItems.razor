@@ -70,13 +70,16 @@ else
 
     public ItemLoader itemLoader;
 
+    [Parameter]
+    public GlobalVariables GlobalVariables { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
         if(itemLoader == null)
         {
             itemLoader = new ItemLoader(_data, _config);
-            await itemLoader.LoadDataAsync();
-            items = itemLoader.items;
+            items = await itemLoader.LoadDataAsync();
+            GlobalVariables.SetItems(items);
         }
     }
 

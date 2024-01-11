@@ -183,7 +183,7 @@ VALUES
 INSERT INTO cost(attribut_count)
 VALUES
 	(0),
-    (0);
+    (1400);
     
 INSERT INTO strength(attribut_count)
 VALUES

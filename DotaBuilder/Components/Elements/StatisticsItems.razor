@@ -1,5 +1,93 @@
-﻿<h3>StatisticsItems</h3>
+﻿@using DotaBuilder.Components.Data.Classes
+@using DotaBuilder.Components.Data.Enums
+@using DotaBuilder.Components.Data
+@using DotaBuilder.Models
+@implements IDisposable
+@inject ItemHandler ItemHandler
+<h3>@i</h3>
+
+@if (@AttributesDictionary != null)
+{
+    <body>
+        @foreach (KeyValuePair<string, int> attributes in AttributesDictionary)
+        {
+            <tr>@attributes.Key: @attributes.Value</tr>
+        }
+    </body>
+}
 
 @code {
 
+    private string ComponentName = "StatisticsItems";
+
+    private Dictionary<string, int> AttributesDictionary = new Dictionary<string, int>();
+
+    private ItemClass emptyItem = null;
+
+    [Parameter]
+    public GlobalVariables GlobalVariables { get; set; }
+
+    public int i = 0;
+
+    protected override Task OnInitializedAsync()
+    {
+        emptyItem = GlobalVariables.GetEmptyItemClass();
+
+        ItemHandler.OnStateChange += ItemsHasChanged;
+        foreach (string attribute in Enum.GetNames(typeof(AttributeName)))
+        {
+            AttributesDictionary[attribute] = 0;
+        }
+
+        return base.OnInitializedAsync();
+    }
+
+    public void Dispose()
+    {
+        ItemHandler.OnStateChange -= ItemsHasChanged;
+    }
+
+    protected override bool ShouldRender()
+    {
+        Console.WriteLine("ShouldRender called: returning true.");
+        return true;
+    }
+
+    private async void ItemsHasChanged()
+    {
+        await UpdateStatistics();
+        InvokeAsync(() => StateHasChanged());
+    }
+
+    private async Task UpdateStatistics()
+    {
+
+        Console.WriteLine("[Update][{0}]", ComponentName);
+        CleanStatistics();
+        ItemClass[,] items = ItemHandler.GetItemsFromInventory().Result;
+
+        for (int rows = 0; rows < GlobalVariables.InventoryRowsCount - 1; rows++)
+        {
+            for (int columns = 0; columns < GlobalVariables.InventoryColumnsCount; columns++)
+            {
+                if (items[rows, columns].ItemName != emptyItem.ItemName)
+                {
+                    foreach (AttributesModel attribute in items[rows, columns].Attributes)
+                    {
+                        AttributesDictionary[attribute.attribut_name] += attribute.attribut_count;
+                    }
+                }
+            }
+        }
+        i++;
+    }
+
+    private void CleanStatistics()
+    {
+        foreach (KeyValuePair<string, int> attribute in AttributesDictionary)
+        {
+            Console.WriteLine("[{0}] Clean [{1}]", ComponentName, attribute.Key);
+            AttributesDictionary[attribute.Key] = 0;
+        }
+    }
 }
