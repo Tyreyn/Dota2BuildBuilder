@@ -10,3 +10,4 @@ C:\Users\athos\source\repos\SqlTut\DataLibrary\obj\Debug\net8.0\DataLibrary.dll
 C:\Users\athos\source\repos\SqlTut\DataLibrary\obj\Debug\net8.0\refint\DataLibrary.dll
 C:\Users\athos\source\repos\SqlTut\DataLibrary\obj\Debug\net8.0\DataLibrary.pdb
 C:\Users\athos\source\repos\SqlTut\DataLibrary\obj\Debug\net8.0\ref\DataLibrary.dll
+C:\Users\athos\source\repos\SqlTut\DataLibrary\obj\Debug\net8.0\DataLibrary.sourcelink.json

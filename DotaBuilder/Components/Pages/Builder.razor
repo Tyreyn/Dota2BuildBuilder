@@ -16,11 +16,11 @@
 <tbody>
     <table class="main-table">
         <tr>
-            <td style="width:fit-content"><AvailableItems></AvailableItems></td>
-            <td style="width:25%">STATISTICS TBD</td>
+            <td style="width:fit-content"><AvailableItems GlobalVariables=@GlobalVariables></AvailableItems></td>
+            <td style="width:25%"><StatisticsItems GlobalVariables=@GlobalVariables></StatisticsItems></td>
         </tr>
         <tr ALIGN="center">
-            <td style="vertical-align: middle;"><InventoryItems></InventoryItems></td>
+            <td style="vertical-align: middle;"><InventoryItems GlobalVariables=@GlobalVariables></InventoryItems></td>
         </tr>
     </table>
 </tbody>
@@ -42,8 +42,15 @@
         width: 100%;
     }
 
-    .td
-    {
-
+    .td {
     }
 </style>
+
+@code {
+    private GlobalVariables GlobalVariables;
+
+    protected override async Task OnInitializedAsync()
+    {
+        GlobalVariables = new GlobalVariables();
+    }
+}

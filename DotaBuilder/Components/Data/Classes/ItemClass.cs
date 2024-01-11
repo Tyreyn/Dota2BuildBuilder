@@ -20,7 +20,6 @@ namespace DotaBuilder.Components.Data.Classes
 
         public List<AttributesModel> Attributes { get; set; }
 
-
         public EventCallbackItemArgs eventCallbackItemsArgs;
 
         public string GetToolTip(string tooltipItemName)
