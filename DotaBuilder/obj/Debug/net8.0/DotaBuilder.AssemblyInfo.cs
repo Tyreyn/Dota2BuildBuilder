@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotaBuilder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7503a8bbf45921019e3ba8598e5d4954b670603")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+757450b248c9c3527b793719b096e1634d4ce311")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotaBuilder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotaBuilder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

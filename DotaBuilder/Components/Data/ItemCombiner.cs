@@ -5,6 +5,7 @@ using DotaBuilder.Components.Elements;
 using MySqlX.XDevAPI;
 using MySqlX.XDevAPI.CRUD;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace DotaBuilder.Components.Data
 {
