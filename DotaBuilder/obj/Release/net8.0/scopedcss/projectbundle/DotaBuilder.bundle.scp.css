@@ -1,0 +1,153 @@
+/* _content/DotaBuilder/Components/Layout/AutoHideSidebar.razor.rz.scp.css */
+.auto-hiding-nav-menu[b-ozbg0ap924] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    transition: max-width 5.3s ease;
+    background-color: #253529;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.nav-menu[b-ozbg0ap924] {
+    overflow: hidden;
+    height: 100%;
+}
+
+.collapsed[b-ozbg0ap924] {
+    width: 55px;
+}
+
+.expand[b-ozbg0ap924] {
+    width: 110px;
+}
+
+
+.nav-item-text[b-ozbg0ap924] {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    margin-top: 4px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform-origin: left center;
+}
+
+.expand .nav-item-text[b-ozbg0ap924] {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.nav-link:hover .nav-item-text[b-ozbg0ap924] {
+    opacity: 1;
+    transform: scale(1.2);
+    color: #DAF7A6;
+}
+
+.nav-item[b-ozbg0ap924] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-item-icon[b-ozbg0ap924] {
+    color: white;
+    font-size: 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform-origin: left center;
+    margin-bottom: 5px;
+}
+
+.nav-link:hover .nav-item-icon[b-ozbg0ap924] {
+    color: #DAF7A6;
+    transform: scale(1.2);
+}
+
+.nav-link > *[b-ozbg0ap924] {
+    align-self: flex-start;
+}
+/* _content/DotaBuilder/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-y3ukjbcupm] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-y3ukjbcupm] {
+    flex: 1;
+}
+
+.sidebar[b-y3ukjbcupm] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-y3ukjbcupm] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-y3ukjbcupm]  a, .top-row[b-y3ukjbcupm]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+        .top-row[b-y3ukjbcupm]  a:hover, .top-row[b-y3ukjbcupm]  .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row[b-y3ukjbcupm]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-y3ukjbcupm] {
+        display: none;
+    }
+
+    .top-row.auth[b-y3ukjbcupm] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-y3ukjbcupm]  a, .top-row[b-y3ukjbcupm]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-y3ukjbcupm] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-y3ukjbcupm] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-y3ukjbcupm] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+        .top-row.auth[b-y3ukjbcupm]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
+
+    .top-row[b-y3ukjbcupm], article[b-y3ukjbcupm] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}

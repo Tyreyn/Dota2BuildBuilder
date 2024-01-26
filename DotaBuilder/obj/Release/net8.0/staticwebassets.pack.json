@@ -1,0 +1,1057 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DotaBuilder.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DotaBuilder.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Abyssal_Blade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Abyssal_Blade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Abyssal_Blade_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Abyssal_Blade_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aegis_of_the_Immortal_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aegis_of_the_Immortal_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aeon_Disk_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aeon_Disk_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aeon_Disk_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aeon_Disk_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aether_Lens_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aether_Lens_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aether_Lens_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aether_Lens_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aghanim_Shard_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aghanim_Shard_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aghanims_Blessing_Roshan_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aghanims_Blessing_Roshan_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aghanims_Blessing_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aghanims_Blessing_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aghanims_Blessing_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aghanims_Blessing_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aghanims_Scepter_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aghanims_Scepter_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Aghanims_Shard_Roshan_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Aghanims_Shard_Roshan_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Arcane_Blink_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Arcane_Blink_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Arcane_Blink_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Arcane_Blink_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Arcane_Boots_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Arcane_Boots_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Armlet_of_Mordiggian_29_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Armlet_of_Mordiggian_29_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Armlet_of_Mordiggian_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Armlet_of_Mordiggian_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Assault_Cuirass_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Assault_Cuirass_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Assault_Cuirass_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Assault_Cuirass_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Band_of_Elvenskin_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Band_of_Elvenskin_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Battle_Fury_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Battle_Fury_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Battle_Fury_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Battle_Fury_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Belt_of_Strength_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Belt_of_Strength_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Black_King_Bar_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Black_King_Bar_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Black_King_Bar_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Black_King_Bar_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blade_Mail_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blade_Mail_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blade_Mail_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blade_Mail_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blade_of_Alacrity_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blade_of_Alacrity_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blades_of_Attack_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blades_of_Attack_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blight_Stone_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blight_Stone_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blink_Dagger_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blink_Dagger_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blitz_Knuckles_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blitz_Knuckles_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Blood_Grenade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Blood_Grenade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bloodstone_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bloodstone_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bloodstone_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bloodstone_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bloodthorn_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bloodthorn_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bloodthorn_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bloodthorn_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Boots_of_Bearing_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Boots_of_Bearing_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Boots_of_Bearing_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Boots_of_Bearing_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Boots_of_Speed_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Boots_of_Speed_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Boots_of_Travel_1_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Boots_of_Travel_1_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Boots_of_Travel_2_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Boots_of_Travel_2_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bottle_29_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bottle_29_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bracer_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bracer_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Bracer_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Bracer_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Broadsword_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Broadsword_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Buckler_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Buckler_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Buckler_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Buckler_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Butterfly_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Butterfly_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Chainmail_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Chainmail_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Cheese_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Cheese_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Circlet_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Circlet_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Clarity_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Clarity_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Claymore_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Claymore_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Cloak_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Cloak_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Cornucopia_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Cornucopia_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Crimson_Guard_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Crimson_Guard_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Crimson_Guard_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Crimson_Guard_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Crown_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Crown_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Crystalys_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Crystalys_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Crystalys_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Crystalys_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Daedalus_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Daedalus_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Daedalus_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Daedalus_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dagon_1_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dagon_1_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dagon_2_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dagon_2_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dagon_3_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dagon_3_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dagon_4_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dagon_4_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dagon_5_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dagon_5_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dagon_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dagon_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Default_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Default_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Demon_Edge_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Demon_Edge_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Desolator_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Desolator_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Diadem_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Diadem_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Diffusal_Blade_1_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Diffusal_Blade_1_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Diffusal_Blade_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Diffusal_Blade_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Disperser_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Disperser_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Divine_Rapier_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Divine_Rapier_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dragon_Lance_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dragon_Lance_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Drum_of_Endurance_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Drum_of_Endurance_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Drum_of_Endurance_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Drum_of_Endurance_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Dust_of_Appearance_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Dust_of_Appearance_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Eaglesong_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Eaglesong_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Echo_Sabre_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Echo_Sabre_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Enchanted_Mango_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Enchanted_Mango_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Energy_Booster_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Energy_Booster_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Eternal_Shroud_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Eternal_Shroud_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Eternal_Shroud_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Eternal_Shroud_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ethereal_Blade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ethereal_Blade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ethereal_Blade_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ethereal_Blade_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Euls_Scepter_of_Divinity_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Euls_Scepter_of_Divinity_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Euls_Scepter_of_Divinity_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Euls_Scepter_of_Divinity_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Eye_of_Skadi_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Eye_of_Skadi_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Faerie_Fire_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Faerie_Fire_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Falcon_Blade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Falcon_Blade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Falcon_Blade_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Falcon_Blade_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Fluffy_Hat_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Fluffy_Hat_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Force_Staff_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Force_Staff_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Force_Staff_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Force_Staff_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Gauntlets_of_Strength_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Gauntlets_of_Strength_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Gem_of_True_Sight_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Gem_of_True_Sight_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ghost_Scepter_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ghost_Scepter_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Gleipnir_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Gleipnir_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Gleipnir_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Gleipnir_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Glimmer_Cape_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Glimmer_Cape_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Glimmer_Cape_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Glimmer_Cape_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Gloves_of_Haste_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Gloves_of_Haste_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Guardian_Greaves_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Guardian_Greaves_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Guardian_Greaves_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Guardian_Greaves_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Hand_of_Midas_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Hand_of_Midas_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Hand_of_Midas_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Hand_of_Midas_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Harpoon_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Harpoon_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Headdress_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Headdress_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Headdress_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Headdress_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Healing_Salve_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Healing_Salve_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Heart_of_Tarrasque_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Heart_of_Tarrasque_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Heart_of_Tarrasque_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Heart_of_Tarrasque_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Heavens_Halberd_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Heavens_Halberd_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Heavens_Halberd_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Heavens_Halberd_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Helm_of_Iron_Will_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Helm_of_Iron_Will_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Helm_of_the_Overlord_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Helm_of_the_Overlord_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Holy_Locket_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Holy_Locket_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Hurricane_Pike_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Hurricane_Pike_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Hurricane_Pike_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Hurricane_Pike_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Hyperstone_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Hyperstone_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Infused_Raindrops_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Infused_Raindrops_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Iron_Branch_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Iron_Branch_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Javelin_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Javelin_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Kaya_and_Sange_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Kaya_and_Sange_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Kaya_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Kaya_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Kaya_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Kaya_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Khanda_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Khanda_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Linkens_Sphere_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Linkens_Sphere_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Linkens_Sphere_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Linkens_Sphere_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Lotus_Orb_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Lotus_Orb_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Maelstrom_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Maelstrom_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mage_Slayer_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mage_Slayer_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mage_Slayer_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mage_Slayer_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Magic_Stick_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Magic_Stick_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Magic_Wand_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Magic_Wand_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Magic_Wand_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Magic_Wand_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Manta_Style_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Manta_Style_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Manta_Style_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Manta_Style_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mantle_of_Intelligence_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mantle_of_Intelligence_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mask_of_Madness_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mask_of_Madness_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mekansm_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mekansm_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mekansm_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mekansm_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Meteor_Hammer_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Meteor_Hammer_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Meteor_Hammer_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Meteor_Hammer_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mithril_Hammer_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mithril_Hammer_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mjollnir_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mjollnir_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mjollnir_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mjollnir_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Monkey_King_Bar_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Monkey_King_Bar_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Monkey_King_Bar_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Monkey_King_Bar_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Morbid_Mask_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Morbid_Mask_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Mystic_Staff_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Mystic_Staff_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Null_Talisman_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Null_Talisman_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Null_Talisman_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Null_Talisman_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Nullifier_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Nullifier_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Oblivion_Staff_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Oblivion_Staff_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Observer_Ward_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Observer_Ward_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Octarine_Core_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Octarine_Core_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ogre_Axe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ogre_Axe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Orb_of_Corrosion_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Orb_of_Corrosion_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Orb_of_Venom_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Orb_of_Venom_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Orchid_Malevolence_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Orchid_Malevolence_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Orchid_Malevolence_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Orchid_Malevolence_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Overwhelming_Blink_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Overwhelming_Blink_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Overwhelming_Blink_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Overwhelming_Blink_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Parasma_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Parasma_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Pavise_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Pavise_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Perseverance_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Perseverance_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Phase_Boots_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Phase_Boots_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Phylactery_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Phylactery_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Pipe_of_Insight_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Pipe_of_Insight_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Pipe_of_Insight_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Pipe_of_Insight_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Platemail_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Platemail_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Point_Booster_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Point_Booster_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Power_Treads_agi_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Power_Treads_agi_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Power_Treads_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Power_Treads_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Power_Treads_int_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Power_Treads_int_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Power_Treads_str_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Power_Treads_str_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Quelling_Blade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Quelling_Blade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Radiance_29_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Radiance_29_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Reaver_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Reaver_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Refresher_Orb_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Refresher_Orb_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Refresher_Orb_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Refresher_Orb_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Refresher_Shard_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Refresher_Shard_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Revenants_Brooch_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Revenants_Brooch_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Revenants_Brooch_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Revenants_Brooch_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ring_of_Basilius_(Active)_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ring_of_Basilius_(Active)_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ring_of_Basilius_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ring_of_Basilius_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ring_of_Health_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ring_of_Health_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ring_of_Protection_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ring_of_Protection_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ring_of_Regen_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ring_of_Regen_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ring_of_Tarrasque_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ring_of_Tarrasque_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Robe_of_the_Magi_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Robe_of_the_Magi_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Rod_of_Atos_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Rod_of_Atos_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Rod_of_Atos_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Rod_of_Atos_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Roshans_Banner_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Roshans_Banner_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Sacred_Relic_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Sacred_Relic_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Sages_Mask_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Sages_Mask_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Sange_and_Yasha_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Sange_and_Yasha_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Sange_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Sange_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Sange_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Sange_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Satanic_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Satanic_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Scythe_of_Vyse_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Scythe_of_Vyse_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Sentry_Ward_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Sentry_Ward_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Shadow_Amulet_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Shadow_Amulet_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Shadow_Blade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Shadow_Blade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Shivas_Guard_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Shivas_Guard_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Shivas_Guard_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Shivas_Guard_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Shop_Consumables_Icon.webp",
+      "PackagePath": "staticwebassets\\images\\Shop_Consumables_Icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Silver_Edge_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Silver_Edge_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Silver_Edge_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Silver_Edge_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Skull_Basher_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Skull_Basher_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Skull_Basher_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Skull_Basher_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Slippers_of_Agility_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Slippers_of_Agility_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Smoke_of_Deceit_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Smoke_of_Deceit_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Solar_Crest_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Solar_Crest_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Solar_Crest_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Solar_Crest_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Soul_Booster_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Soul_Booster_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Soul_Ring_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Soul_Ring_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Soul_Ring_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Soul_Ring_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Spirit_Vessel_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Spirit_Vessel_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Spirit_Vessel_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Spirit_Vessel_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Staff_of_Wizardry_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Staff_of_Wizardry_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Swift_Blink_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Swift_Blink_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Swift_Blink_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Swift_Blink_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Talisman_of_Evasion_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Talisman_of_Evasion_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Tango_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Tango_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Tiara_of_Selemene_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Tiara_of_Selemene_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Town_Portal_Scroll_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Town_Portal_Scroll_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Tranquil_Boots_29_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Tranquil_Boots_29_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Ultimate_Orb_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Ultimate_Orb_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Unknown_Item_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Unknown_Item_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Urn_of_Shadows_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Urn_of_Shadows_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Urn_of_Shadows_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Urn_of_Shadows_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Vanguard_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Vanguard_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Veil_of_Discord_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Veil_of_Discord_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Veil_of_Discord_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Veil_of_Discord_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Vitality_Booster_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Vitality_Booster_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Vladmirs_Offering_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Vladmirs_Offering_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Voodoo_Mask_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Voodoo_Mask_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Wind_Lace_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Wind_Lace_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Wind_Waker_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Wind_Waker_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Wind_Waker_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Wind_Waker_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Witch_Blade_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Witch_Blade_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Witch_Blade_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Witch_Blade_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Wraith_Band_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Wraith_Band_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Wraith_Band_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Wraith_Band_recipe_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Yasha_and_Kaya_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Yasha_and_Kaya_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Yasha_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Yasha_icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\athos\\source\\repos\\SqlTut\\DotaBuilder\\wwwroot\\images\\Yasha_recipe_icon.webp",
+      "PackagePath": "staticwebassets\\images\\Yasha_recipe_icon.webp"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.DotaBuilder.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.DotaBuilder.props",
+      "PackagePath": "build\\DotaBuilder.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DotaBuilder.props",
+      "PackagePath": "buildMultiTargeting\\DotaBuilder.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.DotaBuilder.props",
+      "PackagePath": "buildTransitive\\DotaBuilder.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
